@@ -11,11 +11,7 @@ import UIKit
 class GitInfoViewController: UIViewController {
     var sectionCopy = 0
     let gitInfoView = GitInfoView(frame: CGRect.zero)
-//    var commands: [Commands] = [] {
-//        didSet {
-//
-//        }
-//    }
+
     var sections = ["Adding", "Merge Conflicts", "Committing", "Branches"]
   
     override func viewDidLoad() {
